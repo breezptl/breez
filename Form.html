@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>This is registration form </legend>
+        <form action="abcd.php" method="post">
+            <table>
+                <tr>
+                    <td> <label for="username" >username</label></td>
+                    <td><input type="text" id="username"  required placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password" id="password" required placeholder="enter your password"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone-no">phone-no</label></td>
+                    <td><input type="tel"  id="phone-no" required placeholder="enter your phone-no"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">email</label></td>
+                    <td><input type="email" name="" id="email" required placeholder="enter your email id"></td>
+                </tr>
+                <tr>
+                    <td><label for="gander">gander</label></td>
+                    <td>
+                        male <input type="radio" name="gander" id="">
+                        famale <input type="radio" name="gander" id="">
+                        other <input type="radio" name="gander" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>hobbies</td>
+                    <td>
+                        cicket <input type="checkbox" name="" id="">
+                        swiming <input type="checkbox" name="" id="" checked >
+                        travel <input type="checkbox" name="" id="">
+                        outing <input type="checkbox" name="" id="" disabled>
+                        game <input type="checkbox" name="" id="">
+                        music <input type="checkbox" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>enter your hobbies</td>
+                    <td>
+                        <textarea name="" id="" cols="50" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="DOB">DOB</label></td>
+                    <td><input type="date" name="" id="DOB" required></td>
+                </tr>
+                <tr>
+                    <td><label for="date-time">date-time</label></td>
+                    <td><input type="datetime-local" name="" id="date-time"></td>
+                </tr>
+                <tr>
+                    <td><label for="file">Upload your profile picture</label></td>
+                    <td>
+                        <input type="file" name="" id="" accept="image" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="city">city</label></td>
+                    <td>
+                        <select>
+                            <option value="none">none</option>
+                            <option value="Ahmedabad">ahmedabad</option>
+                            <option value="Patan">mumbai</option>
+                            <option value="Surat">surat</option>
+                            <option value="Gandhingar">gandhingar</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="edution">edution</label></td>
+                    <td>
+                        <select multiple>
+                            <option value="">10th</option>
+                            <option value="">12th</option>
+                            <option value="">ER</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="range">range</label></td>
+                    <td>0<input type="range" value="00" name="" id="">100</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="savedata"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
