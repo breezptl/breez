@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.ml{
+    margin: 0 50px 0 0;
+}
+.jcs {
+    justify-content: space-between;
+}
+.col-30{
+    width: 30%;
+}
+.col-50{
+    width: 50%;
+}
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.sec-one {
+    background-image: url(./Tamplets/Image/b.g.png);
+}
+
+header {
+    background-color: #5381c1a5;
+}
+
+.navbar {
+    align-items: center;
+    padding: 20px 0;
+}
+
+.links ul li {
+    display: inline-block;
+}
+
+.links ul li {
+    margin: 0 0 0 60px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+i {
+    color: white;
+    font-size: 30px;
+}
+.sec-one-text {
+    padding: 100PX 0;
+}
+
+.sec-one-text h1 {
+    margin: 100PX 0 35PX 0;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+.sec-one-text p {
+    width: 60%;
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.sec-one .order-now-btn button {
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    color: white;
+    padding: 8px 50px;
+    background-color: #edc315;
+    border-radius: 25px;
+    border: none;
+}
+.sec-three .order-now-btn button {
+    display: block;
+    font-size: 16px;
+    color: white;
+    padding: 8px 50px;
+    background-color: #edc315;
+    border-radius: 25px;
+    border: none;
+}
+.sec-two{
+    background-color: #739ee3;
+}
+.sec-two-text h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 55px 0 35px 0 ;
+}
+.sec-two-text p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 0 0 70px 0 ;
+}
+.sec-two-card img{
+    width: 100%;
+    border-radius: 50% ;
+}
+.sec-two-card h3{
+    margin: 20px 0;
+    font-size: 30px;
+     color: white;
+     text-align: center;
+}
+.sec-two-card p{
+    margin: 20px 0;
+    font-size: 20px;
+     color: white;
+     text-align: center;
+}
+.sec-three{
+    background-color: #5380c1;
+}
+.sec-three img{
+  border-radius: 50%;
+}
+.sec-three-con{
+    align-items: center;
+    padding: 100px 0;
+}
+.sec-three-con h3{
+   font-size: 70px;
+   color: white;
+   margin: 0 0 30px 0;
+}
+.sec-three-con p{
+   font-size: 22px;
+   color: white;
+   margin: 0 0 30px 0;
+}
